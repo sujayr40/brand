@@ -49,7 +49,8 @@ section
     left: 0;
     width: 100%;
     padding: 2rem 0;
-    background: var(--bg-color);
+    background: transparent;
+    box-shadow:  0 0 1rem var(--text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;

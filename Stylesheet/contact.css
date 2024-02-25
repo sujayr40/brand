@@ -297,7 +297,8 @@ span
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background-color: rgb(80, 80, 224);
+    color: var(--bg-color);
 }
 
 .footer-details
@@ -312,6 +313,7 @@ span
 
 .footer-details h3
 {
+    color: var(--bg-color);
     text-decoration: underline;
 }
 
@@ -344,6 +346,14 @@ span
     height: 3rem;
     font-size: 1.5rem;
     margin: 0;
+    background: var(--bg-color);
+}
+
+.social-icon .social-media a:hover
+{
+    background: var(--maion-color);
+    border-color: var(--bg-color);
+    box-shadow: 0 0 1rem var(--bg-color);
 }
 
 .touch
@@ -357,8 +367,8 @@ span
 .touch a,
 .quick-links a
 {
-    color: var(--text-color);
-    transition: 1s ease;
+    color: var(--bg-color);
+    transition: .5s ease;
 }
 
 .touch a:hover,

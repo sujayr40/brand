@@ -85,7 +85,7 @@ section
 .navbar .button
 {
     background-color: var(--text-color);
-    box-shadow: 0 0 1rem var(--text-color);
+    box-shadow: 0 var(--text-color);
     color: var(--second-bg-color);
     padding: .7rem 1.3rem;
 }

@@ -59,14 +59,19 @@ section
 .logo
 {
     width: 10dvw;
+    padding-left: 20px;
+}
+
+.navbar{
+    padding-right: 20px;
 }
 
 .navbar a
 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--text-color);
-    margin-left: .7rem;
+    margin-left: 1rem;
     transition: .3s;
 }
 
@@ -78,13 +83,16 @@ section
 
 .navbar .button
 {
+    background-color: var(--text-color);
+    box-shadow: 0 var(--text-color);
     color: var(--second-bg-color);
     padding: .7rem 1.3rem;
 }
 
 .navbar .button:hover
 {
-    color: var(--text-color);
+    background-color: var(--maion-color);
+    color: var(--bg-color);
 }
 
 #menu-icon

@@ -814,7 +814,7 @@ span
 
     .home {
         flex-direction: column;
-        padding: 2rem;
+        padding: 1rem;
         margin-top: 6rem;
     }
 
@@ -836,11 +836,20 @@ span
     }
 
     .short_link {
+        padding-top: 50px;
         width: 100%;
+        height: auto;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
-        margin-top: 20px;
+    }
+
+    .short_link a{
+        width: 20rem;
+        padding: 1rem .5rem;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+        font-size: 10px;
     }
 
     .about {

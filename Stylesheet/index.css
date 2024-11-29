@@ -779,7 +779,6 @@ span
 @media (max-width: 768px) {
     * {
         box-sizing: border-box;
-        overflow: hidden;
     }
 
     #menu-icon {
@@ -845,11 +844,16 @@ span
 
     .about {
         flex-direction: column-reverse;
+        overflow: hidden;
     }
 
     .about img {
         width: 70vw;
         margin-top: 4rem;
+    }
+
+    .projects {
+        overflow: hidden;
     }
 
     .project-container {
@@ -997,4 +1001,3 @@ span
         margin-bottom: 2rem;
     }
 }
-
